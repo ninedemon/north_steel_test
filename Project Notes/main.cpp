@@ -12,7 +12,7 @@ using namespace sf;
 int main()
 {
 	//creating an application window
-	RenderWindow window(VideoMode(1100, 900), L"Заметки!", Style::Default);
+	RenderWindow window(VideoMode(1100, 900), L"Г‡Г Г¬ГҐГІГЄГЁ!", Style::Default);
 	//creating a block of notes
 	block_of_notes one;
 	//creating an object that stores information about the page number
@@ -125,6 +125,8 @@ int main()
 				}
 				// after zeroing all elements of the array, we change the size
 				one.text_information.resize(1);
+				number_list = 1;
+				list = page_number(number_list);
 			}
 		}
 
